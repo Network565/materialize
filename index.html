@@ -1,0 +1,55 @@
+<!--materialize css cdn link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+<!--add css style-->
+<style>
+    body{
+       background: white;
+    }
+    .login{
+        margin-top: 100px;
+        text-align: center;
+        font-size: large;
+    }
+    .login .card{
+        background: burlywood;
+        padding: 50px;
+        margin: 50px;
+    }
+    .login label{
+        font-size: 15px;
+        color: black
+    }
+    .login input{
+        font-size: 22px !important;
+    }
+    .login button:hover{
+        padding: 0px 40px;
+    }
+</style>
+<!--login form -->
+<div class="row login">
+    <div class="col s12 14 offset-14">
+        <div class="card">
+            <div class="card action black white-text">
+                <h3>login</h3>
+            </div>
+    <div class="card-content">
+        <div class="form-field">
+            <label for="username">Enter username</label>
+            <input type="text" id="username">
+        </div><br>
+        <div class="form-field">
+            <label for="password">Enter password</label>
+            <input type="password" id="password">
+        </div><br>
+        <div class="form-field">
+            <input type="checkbox" id="Remember">
+            <label for="Remember">Remember</label>
+        </div><br>
+        <div class="form-field center-align">
+            <button class="btn-large black">login</button>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
